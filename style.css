@@ -1,0 +1,143 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+.box-outer {
+    display: flex;
+    justify-content: center;
+    padding: 80px 40px;
+}
+
+
+.cv-box {
+    display: flex;
+    width: 1000px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.box-1 {
+    width: 35%;
+    background-color: rgb(6, 83, 113); 
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #fff;
+    margin-bottom: 20px;
+}
+
+.box-1 h1 {
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.box-1 p {
+    font-size: 14px;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill-name {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+.skill-bar {
+    width: 100%;
+    height: 8px;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.skill-bar-fill {
+    height: 100%;
+    background-color: #ffc107; 
+    width: 0%;
+    border-radius: 5px;
+}
+
+
+.box-2 {
+    width: 65%;
+    padding: 30px;
+}
+
+.introduction {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.introduction h1 {
+    font-size: 32px;
+    color: #0d6efd;
+    margin-bottom: 10px;
+}
+
+.hr {
+    height: 4px;
+    width: 60px;
+    background-color: #ffc107;
+    margin: 0 auto 20px;
+    border: none;
+}
+
+.introduction-p {
+    font-size: 16px;
+    color: #555;
+}
+
+.content-2 {
+    margin-bottom: 30px;
+}
+
+.head {
+    font-size: 20px;
+    color: #fde10d;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #dee2e6;
+    display: inline-block;
+}
+
+.para-1 {
+    font-size: 15px;
+    color: #333;
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+
+
+
